@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/mizukmb/ruboty-mocho.git
+  revision: 8cf31b70bc2e03ffd7e3c30f0a599ade6d084dc8
+  specs:
+    ruboty-mocho (0.1.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -18,7 +24,6 @@ GEM
       dotenv
       mem
       slop
-    ruboty-mocho (0.1.1)
     ruboty-slack (0.1.7)
       ruboty (>= 1.0.4)
       xrc (>= 0.0.6)
@@ -34,5 +39,5 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
-  ruboty-mocho
+  ruboty-mocho!
   ruboty-slack
